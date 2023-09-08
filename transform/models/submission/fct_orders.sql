@@ -35,12 +35,14 @@ with orders as (
     select 
         final_orders.date_local
         , final_orders.country_name
+        , final_orders.vendor_id
         , final_orders.customer_id
         , final_orders.gmv_local
         , final_orders.is_voucher_used
         , final_orders.is_successful_order
-        , final_orders.products
         , restaurants.vendor_name as restaurant_name
+        , final_orders.products
+        , array_length(final_orders.products) as cnt_products
 
     from final_orders 
     left join restaurants on final_orders.vendor_id = restaurants.id
