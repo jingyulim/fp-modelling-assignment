@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: foodpanda_test
+    database: iconic-setup-397307  
+    schema: foodpanda_assignment  
+    tables:
+      - name: orders
+      - name: customers
+      - name: products
+      - name: vendors
