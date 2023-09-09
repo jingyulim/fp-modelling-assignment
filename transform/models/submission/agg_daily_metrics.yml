@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: agg_daily_metrics
+    description: For calculation of daily metrics; (1) total successful orders, (3) total successful orders per restaurant and (4) average products per order
+
+    columns:
+      - name: cnt_orders
+        description: Number of orders, regardless of status.
+
+      - name: cnt_successful_orders
+        description: Number of successful orders.
+
+      - name: cnt_products
+        description: Number of products selected in all orders, regardless of status.
+
+      - name: cnt_successful_products
+        description: Number of products selected in successful orders.
+      
