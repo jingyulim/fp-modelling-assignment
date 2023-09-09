@@ -8,6 +8,9 @@ with orders as (
     select * from {{ ref('fct_orders') }}
 )
 
+-- Total successful orders per day = sum(cnt_successful_orders)
+-- Total successful orders per restaurant per day = cnt_successful_orders
+-- Average number of products ordered per order per day = sum(cnt_products) / sum(cnt_orders)
 , final as (
     select 
         date_local
