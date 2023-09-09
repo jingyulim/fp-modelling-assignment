@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: snapshot_customer_metrics
-    description: Table containing a snapshot of the activity of all customers (i.e. customer_id).
+    description: For calculation of customer metrics; (2) customers who have placed at least 1 successful order and (5) customers who have reordered at least once in the last 7 days
 
     columns:
       - name: has_success_order
