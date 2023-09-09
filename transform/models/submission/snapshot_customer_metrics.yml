@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: snapshot_customer_metrics
+    description: For calculation of customer metrics; (2) customers who have placed at least 1 successful order and (5) customers who have reordered at least once in the last 7 days
+
+    columns:
+      - name: has_success_order
+        description: For calculation of "No of customers who have placed at least 1 successful order" metric; count rows with True
+
+      - name: has_reorder_l7d
+        description: For calculation of "No of customers who have reordered at least once in the last 7 days" metric; count rows with True

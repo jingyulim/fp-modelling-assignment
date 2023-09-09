@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: Fact table of all orders created by customers; each row represents an orders.
+
+    columns:
+      - name: products
+        description: Array of product_ids ordered
+
+      - name: cnt_products
+        description: Number of products ordered. If the same product was ordered twice, the count will be 2.
