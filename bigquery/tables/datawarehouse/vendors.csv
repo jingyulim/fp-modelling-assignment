@@ -1,0 +1,16 @@
+id,country_id,chain_id,country_name,is_active,vendor_name,budget
+1020,15,118,Singapore,TRUE,WS (BM),1
+941,15,,Singapore,FALSE,Canada Paste,1
+2870,18,,Taiwan,FALSE,I LOVE PIZZAAAAAAAAAAA,1
+606,15,,Singapore,FALSE,PastaPastaPasta,3
+3812,18,18,Taiwan,TRUE,Sweet Chinese Desserts,2
+13,15,12,Singapore,TRUE,IC House,2
+227,17,212,Thailand,TRUE,9th Cafe House,3
+32,16,,Malaysia,FALSE,Walter Mellon,1
+12,17,,Thailand,TRUE,Juan in a Million,2
+6909,20,,Philippines,FALSE,Goat Tea,1
+448,19,,Vietnam,TRUE,The French Laundry,2
+44,22,523,Korea,TRUE,Polo Bar,3
+6778,21,,Japan,FALSE,Top Restaurant,3
+22,19,,Vietnam,TRUE,Ban Me,2
+878,16,887,Malaysia,TRUE,Miso Hungry,1
